@@ -14,6 +14,7 @@ async function main() {
 
   productList.forEach((x) => {
     const parsingText = "<font class=list_title>";
+    //  Find parsing text index
     const startPos = x.indexOf(parsingText);
     const endPos = x.indexOf("</font>");
 
